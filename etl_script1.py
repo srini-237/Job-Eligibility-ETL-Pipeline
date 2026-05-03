@@ -6,8 +6,8 @@ import os
 def fetch_data_from_mysql():
     mysql_config = {
         'host': 'localhost',
-        'user': 'root',
-        'password': 'root',
+        'user': 'username',
+        'password': 'your_password',
         'database': 'job_portal'
     }
 
