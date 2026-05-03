@@ -22,6 +22,6 @@ dag = DAG(
 
 run_etl = BashOperator(
     task_id='run_etl',
-    bash_command='bash /home/srinivasan/wrapper_script1.sh ',#give a space after the path
+    bash_command='bash /home/srinivasan/wrapper_script1.sh ',# don't forge to give a space after the path
     dag=dag,
 )
